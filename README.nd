@@ -22,7 +22,4 @@ Ensure you have an MSP430FR6989 development board. Connect any external componen
 1. Install Code Composer Studio (CCS) version 10.2.
 2. Import the project into CCS, configure build settings, and load the code onto the MSP430FR6989.
 
-## Contact
-
-For questions or further information, feel free to contact me at levietduc0712@gmail.com.
 

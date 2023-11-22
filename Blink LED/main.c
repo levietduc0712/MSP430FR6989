@@ -1,8 +1,5 @@
 //******************************************************************************
-//  MSP430FR69x Demo - Toggle P1.0 using software
-//
-//  Description: Toggle P1.0 using software.
-//  ACLK = n/a, MCLK = SMCLK = default DCO
+//  MSP430FR6989 - Toggle P1.0
 //
 //           MSP430FR6989
 //         ---------------

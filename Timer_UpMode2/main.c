@@ -30,7 +30,7 @@
 
 int main(void)
 {
-    unsigned int numoftimes = 0;            // How many times it count from 0 to 50,000
+    unsigned int numoftimes = 0;            // How many times it count from 0 to 40,000
 
     WDTCTL = WDTPW | WDTHOLD;               // Stop WDT
     PM5CTL0 &= ~LOCKLPM5;                   // Disable the GPIO power-on default high-impedance mode

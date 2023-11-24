@@ -8,8 +8,8 @@
 // |                                    |   0     1   |             |   0     1   |                   |        |
 // |-----------------------------------------------------------------------------------------------------------|
 //
-//  Description: Explore the full potential of TimerA, a powerful 16-bit register with a maximum count of 65,536.
-//  With each count approximately representing 0.25 microseconds,
+//  Description: Explore the full potential of TA0CTL, a powerful 16-bit register with a maximum count of 65,536.
+//  With each count approximately representing 0.25 microseconds (ACLK mode),
 //  the default maximum time achievable is 1.6384 seconds.
 //  However, this code will guide you through the process of extending this time limit.
 //

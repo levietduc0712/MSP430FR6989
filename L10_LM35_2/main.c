@@ -62,6 +62,8 @@ int main(void)
         if (temp1 > 34)
         {
             P1OUT = BIT0;                  // Turn on red LED
+            LCDM3 ^= 0x01;                 // Toggle Exclamation symbol
+            LCDBM3 ^= 0x01;
         }
         else
         {

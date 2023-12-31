@@ -1,3 +1,30 @@
+//******************************************************************************
+//   MSP430FR6989 Demo - ADC12, Sample A10, Set P1.0 if temperature > 32 Celsius.
+//
+//   Description: A single sample is taken from the LM35 temperature sensor,
+//   connected to ADC input A10, with reference is 3.3V. If the temperature
+//   reading in Celsius from the LM35 sensor is greater than 34 degrees,
+//   P1.0 is set; otherwise, it is reset. This examples also configures the
+//   LCD in 4-Mux mode and displays the temperature on a TI LCD
+//
+//          MSP-EXP430FR6989 Launchpad
+//              -----------------
+//          /|\|                 |
+//           | |              XIN|--
+//           --|RST              |  32768Hz
+//             |             XOUT|--
+//             |                 |
+//             |             COM3|----------------|
+//             |             COM2|---------------||
+//    >--------|P9.2/A10     COM1|--------------|||
+//             |             COM0|-------------||||
+//             |                 |    -------------
+//             |           Sx~Sxx|---| 1 2 3 4 5 6 |
+//             |                 |    -------------
+//             |                 |       TI LCD
+//
+//******************************************************************************
+
 #include <msp430.h> 
 #include "lcd.h"
 

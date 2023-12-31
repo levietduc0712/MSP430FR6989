@@ -77,4 +77,3 @@ msp430fr69xx_wdt_01.c                               WDT, Toggle P1.0, Interval O
 msp430fr69xx_wdt_02.c                               WDT, Toggle P1.0, Interval Overflow ISR, 32kHz ACLK
 msp430fr69xx_wdt_04.c                               WDT+ Failsafe Clock, WDT mode, DCO SMCLK
 msp430fr69xx_wdt_05.c                               Reset on Invalid Address fetch, Toggle P1.0
-

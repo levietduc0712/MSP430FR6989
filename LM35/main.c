@@ -41,13 +41,13 @@ main()
 
         if (temp1 > 32)
         {
-            P1OUT ^= BIT0;                  // Turn on red LED
-            __delay_cycles(100000);
+            P1OUT = BIT0;                  // Turn on red LED
         }
         else
         {
             P1OUT = 0x00;                   // Turn off red LED
         }
+        __delay_cycles(100000);
     }
 }
 

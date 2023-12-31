@@ -127,12 +127,8 @@ void select_clock_signals(void)
 
 void assign_pins_to_uart(void)
 {
-//    P4SEL1 = 0x00;
-//    P4SEL0 = BIT3 | BIT2;
-
     P2SEL1 = 0x00;
     P2SEL0 = BIT1 | BIT0;
-
 }
 
 void use_9600_baud(void)

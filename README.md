@@ -23,6 +23,6 @@ Ensure you have an MSP430FR6989 development board. Connect any external componen
 2. Import the project into CCS, configure build settings, and load the code onto the MSP430FR6989.
 
 ## Datasheet
-1. https://www.ti.com/lit/ug/slau367p/slau367p.pdf?ts=1700837997376&ref_url=https%253A%252F%252Fwww.bing.com%252F
-2. https://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSP-EXP430FR6989/latest/index_FDS.html
+1. [Manual](https://www.ti.com/lit/ug/slau367p/slau367p.pdf?ts=1700837997376&ref_url=https%253A%252F%252Fwww.bing.com%252F)
+2. [Datasheet](https://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSP-EXP430FR6989/latest/index_FDS.html)
 3. https://www.ti.com/tool/MSPDRIVERLIB
